@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: sans-serif;
+    background: #e2e8f0;
+    
+}
+
+.caixa {
+    width: 80px;
+    height: 80px;
+    background: #3b82f6;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.campo {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr;
+}
