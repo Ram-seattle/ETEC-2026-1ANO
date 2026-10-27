@@ -1,0 +1,42 @@
+h1 {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    color:#e0e7ff
+}
+input  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#001a33;
+
+}
+.area {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: #111624;
+  
+}
+label {
+    color:#a5b4fc;
+}
+
+
+:root {
+    --cor-fundo: #0b0f19;
+    --cor-painel: #111624;
+    --cor-destaque: #6366f1;
+    --cor-destaque-rgb: 99, 102, 241;
+    --cor-texto-painel: #c7d2fe;
+    --cor-texto-titulo: #e0e7ff;
+    --cor-texto-label: #a5b4fc;
+    --cor-borda-input: #363c52;
+    --cor-texto-input: #f1f5f9;
+    --cor-placeholder: #565f7e;
+    --cor-erro: #ef4444;
+    --cor-texto-botao: #ffffff;
+}
+body{
+    background-color: #0b0f19;
+}

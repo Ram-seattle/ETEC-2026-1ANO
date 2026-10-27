@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="area">
+        <h1 id="title">Pokédex</h1>
+        <form method="get" id="pokeform">
+        <label for="nome" class="texto">Nome do Pokemon:
+            <input id="nome" type="text" placeholder="Ex: Pikachu">
+        </label>
+        <label for="tipo" class="texto">Tipo do Pokemon:
+            <input id="tipo" type="text" placeholder="Ex: Elétrico">
+        </label>
+        <label for="pc" class="texto">Poder de Combate:
+            <input id="pc" type="text" placeholder="Ex: 939">
+        </label>
+        <label for="nomTrain" class="texto">Nome do Treinador:
+            <input id="nomTrain" type="text" placeholder="Ex: Ash Ketchum">
+        </label>
+
+        <button id="btn" type="submit">Finalizar Cadastro</button>
+        </form>
+        <h2 id="feedback"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
